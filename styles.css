@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 16px/22px "Lato", "Quicksand", "Grand Hotel", "Dancing Script", Helvetica, Arial, sans-serif;
+}
+
+p {
+  text-align: center;
+  padding: 2px;
+}
+
+.indent {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.indent-2 {
+  padding-left: 60px;
+}
+
+h1{
+  font-size: 64px;
+  padding-bottom: 40px;
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-family: "Dancing Script";
+  font-size: 24px;
+  text-align: center;
+}
+
+.special {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.home-page{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px;
+}
+
+.about-button, .career-button{
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 170px;
+  padding: 15px 20px;
+  margin: 20px 0 0 10px;
+}
+
+
+.home-image{
+  background-image: url('Telluride-Waterfall.jpg') center fixed;
+  background-size: cover;
+  width: 100%;
+  background-repeat: none;
+}
+
+/* NAVIGATION */
+
+.nav {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+/* LINKS */
+a:hover {
+  color: #4CD8FF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.textlink {
+  text-align: center;
+  margin: 30px;
+}
+
+.textlink a {
+  font-family: "Dancing Script";
+  font-size: 24px;
+}
+
+/* GIFS+IMAGES */
+
+.gif {
+  height: 200px;
+}
+
+.gif-row-1{
+  box-sizing: border-box;
+  height: 200px;
+  width: 900px;
+  margin: 20px auto;
+}
+
+.gif-row-2 {
+  box-sizing: border-box;
+  height: 200px;
+  width: 1000px;
+  margin: 20px auto;
+
+}
+
+
+img {
+  height: 250px;
+  padding: 10px 0 10px 5px;
+}
+
+.image-row {
+  box-sizing: border-box;
+  height: 250px;
+  width: 1200px;
+  margin: 20px auto;
+  /*border: 3px solid gray;*/
+}
+
+header {
+  padding-top: 40px;
+}
+
+footer {
+  float: left;
+  width: 95%;
+  margin: 50px;
+  padding: 50px;
+
+}
+
+.social {
+  float: right;
+}
